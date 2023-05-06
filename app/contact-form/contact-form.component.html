@@ -1,0 +1,31 @@
+<app-contact-list></app-contact-list>
+
+<div class="user-input">
+    <form [formGroup] = "contactForm" id="ContactForm" class="table" action="">
+        <div class="row"><div class="cell">Name</div></div>
+        <div class="row">
+            <div class="cell"><input class="input-text" type="text" formControlName="contactName" id="InputName"></div>
+            <span *ngIf="contactName && contactName.invalid && contactName.touched" id="NameError">Name is required</span>
+        </div>
+        <div class="row"><div class="cell">Email</div></div>
+        <div class="row">
+            <div class="cell"><input class="input-text" type="text" formControlName="contactEmail" id="InputEmail"></div>
+            <span *ngIf="contactEmail && contactEmail.invalid && contactEmail.touched" id="EmailError">Email is required</span>
+        </div>
+        <div class="row">
+            <div class="cell">Mobile 
+            <span id="SecondSpan">Landline</span></div>
+        </div>
+        <div class="row">
+            <div class="cell"><input class="short-input-text" type="text" formControlName="contactMobile" id="InputMobile"><input id="InputLandline" class="short-input-text SecondText" type="text" formControlName="contactLandline">
+                <span *ngIf="contactMobile && contactMobile.invalid && contactMobile.touched" id="MobileError"> Mobile number is required</span>
+            </div>
+        </div>
+        <div class="row"><div class="cell">Website</div></div>
+        <div class="row"><div class="cell"><input class="input-text" type="text" formControlName="contactWebsite" id="InputWebsite"></div></div>
+        <div class="row"><div class="cell">Address</div></div>
+        <div class="row"><div class="cell"><textarea formControlName="contactAddress" id="InputAddress" cols="54" rows="8"></textarea></div></div>
+        <a routerLink = "/contact/details/{{index}}"><button [disabled] = '!contactForm.valid' (click) = 'addContact(contactForm.value)' id="SubmitForm" class="add-btn" type="submit">Add</button></a>
+        <div id="OnSubmit"></div>                        
+    </form>
+</div>

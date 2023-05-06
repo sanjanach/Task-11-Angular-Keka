@@ -1,0 +1,91 @@
+.user-input{
+    top: 24%;
+    left: 35%;
+    position: absolute;
+    width: 35%;
+    padding: 15px 13px 60px 20px;
+    box-shadow: 0 0px 5px 5px rgba(0, 0, 0, 0.19);
+    margin-right: 30%;
+}
+
+.table{
+    display: table;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.row{
+    display: table-row;
+}
+
+.cell{
+    display: table-cell;
+}
+
+#SecondSpan{
+   margin-left: 167px;
+}
+
+.SecondText{
+    margin-left: 13px;
+}
+
+.short-input-text{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    width: 45.6%;
+    height: 33px;
+}
+
+.input-text{
+    margin-top: 3px;
+    margin-bottom: 10px;
+    height: 33px;
+    width: 97%;
+}
+
+.add-btn{
+    background-color: rgb(70, 140, 0);
+    border: 1px solid rgb(70, 140, 0);
+    color: #ffff;
+    height: 29px;
+    width: 94px;
+    cursor: pointer;
+    position: relative;
+    left: 430px;
+}
+
+#ContactSection{
+    float: left;
+    width: 340px;
+    height: 30%;
+}
+
+.contact-details, .select-contact{
+    margin-left: 25px;
+    border: 1px solid rgb(207, 207, 207);
+    width: 100%;
+}
+
+.contact-details:hover{
+    cursor: pointer;
+}
+
+#FillName, #FillEmail, #FillMobile{
+    padding-left: 10px;
+}
+#FillName{
+    font-size: 25px;
+    font-weight: 400;
+}
+#FillEmail, #FillMobile{
+    font-size: 12px;
+}
+#FillMobile{
+    padding-bottom: 7px;
+}
+
+#NameError, #EmailError, #MobileError, #LandlineError, #WebsiteError, #AddressError, #OnSubmit{
+    color: red;
+    font-size: 12px;
+}

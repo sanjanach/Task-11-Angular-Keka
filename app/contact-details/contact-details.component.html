@@ -1,0 +1,11 @@
+<div id="DisplayDetails" >
+    <div class="contact-name">{{formDataArray[index].contactName}}
+    <span  class="edit-text" [routerLink] = "['/contact', 'details', index, 'edit']"><img src="assets/edit1.jpg" alt="" class="edit-img">Edit</span>
+        <span (click)="deleteContact()" class="delete-text"><img src="assets/delete2.png" alt="" class="delete-img">Delete</span>
+    </div>
+    <div class="form-details">Email: {{formDataArray[index]?.contactEmail}}</div>
+    <div class="form-details">Mobile: {{formDataArray[index]?.contactMobile}}</div>
+    <div class="form-details">Landline: {{formDataArray[index]?.contactLandline}}</div>
+    <div class="form-details">Website: {{formDataArray[index]?.contactWebsite}}</div>
+    <div class="form-details">Address: {{formDataArray[index]?.contactAddress}}</div>
+</div>

@@ -1,0 +1,57 @@
+.contact-title{
+    text-transform: uppercase;
+    padding: 30px 25px;
+    padding-right: 0;
+    margin-right: 0;
+    font-weight: 800;
+    width: 30px;
+}
+
+#ContactSection{
+    width: 340px;
+    height: 30%;
+}
+
+
+a.contact-list{
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+.active{
+    background-color: rgb(206, 231, 242);
+}
+
+.contact-details, .select-contact{
+    margin-left: 25px;
+    border: 1px solid rgb(207, 207, 207);
+    width: 100%;
+}
+
+.contact-details:hover{
+    cursor: pointer;
+}
+
+#FillName, #FillEmail, #FillMobile{
+    padding-left: 10px;
+    
+}
+
+
+#FillName{
+    font-size: 25px;
+    font-weight: 400;
+}
+#FillEmail, #FillMobile{
+    font-size: 12px;
+}
+#FillMobile{
+    padding-bottom: 7px;
+}
+
+.select-contact{
+    background-color: rgb(206, 231, 242);
+}

@@ -1,0 +1,8 @@
+<div id="ContactSection" *ngFor = "let formData of formDataArray; let i = index"   class="contact-details" [routerLinkActive] = "['active']"  #contact>
+        <a [routerLink]="['/contact', 'details', i]" class="contact-list" (click)="displayDetails(i)" >
+            <div id="FillName" >{{formData?.contactName}}</div>
+            <div id="FillEmail" >{{formData?.contactEmail}}</div>
+            <div id="FillMobile" >{{formData?.contactMobile}}</div>
+        </a>
+</div>
+<router-outlet></router-outlet>

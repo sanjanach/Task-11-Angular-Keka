@@ -1,0 +1,51 @@
+#DisplayDetails{
+    position: absolute;
+    left: 32%;
+    top: 23%;
+    white-space: pre-line;
+}
+
+.contact-name{
+    font-size: 35px;
+
+}
+
+.form-details{
+    position: relative;
+    top: 20px;
+}
+
+.edit-img{
+    position: relative;
+    cursor: pointer;
+    right: 4px;
+    height: 13px;
+    width: 13px;
+}
+
+
+a .edit-text, a.edit-text{
+    text-decoration: none;
+    color: black;
+}
+
+.delete-img{
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+    height: 21px;
+    width: 15px;
+}
+
+.delete-text{
+    cursor: pointer;
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+
+.edit-text{
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 90px;
+}

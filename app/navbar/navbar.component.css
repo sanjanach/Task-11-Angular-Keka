@@ -1,0 +1,28 @@
+.navbar{
+    background-color: rgb(51,51,51);
+    height: 28px;
+}
+
+.nav-list{
+    margin: 0;
+    text-transform: uppercase;
+    padding: 4px 14px;
+}
+
+.nav-list-item{
+    display: inline;
+}
+
+.nav-list-item a{
+    color: white;
+    text-decoration: none;
+    padding: 1px 9px;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.blog-icon{
+    position: relative;
+    float: right;
+    bottom: 2px;
+}

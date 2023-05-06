@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+}
+
+
+.navbar, .contact-title , .table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.contact-details, .select-contact, #DisplayDetails{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

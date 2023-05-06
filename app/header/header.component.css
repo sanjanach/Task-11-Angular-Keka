@@ -1,0 +1,14 @@
+.page-header{
+    background-color: rgb(51,153,204);
+    height: 88px;
+}
+
+.page-title{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    padding: 20px 0px 33px 20px;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
